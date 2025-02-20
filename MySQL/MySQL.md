@@ -27,4 +27,23 @@ It is a standardized programming language used to manage and manipulate relation
 [Refrence](https://www.geeksforgeeks.org/most-popular-databases/)
 
 #
+### What is RDBMS?
+#
+RDBMS stands for Relational Database Management Systems. It is a program that allows us to create, delete, and update a relational database. A Relational Database is a database system that stores and retrieves data in a tabular format organized in the form of rows and columns.
+
+[Reference](https://www.geeksforgeeks.org/rdbms-full-form/)
+#
+### RDBMS Vs DBMS :
+#
+| **Aspect**        | **DBMS**                                                                 | **RDBMS**                                                                                         |
+| :---------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| Definition        | A software system that manages and organizes data in a structured format | A specialized type of DBMS that stores data in a relational model (tables with rows and columns). |
+| Data storage      | Data is stored as files                                                  | Data is stored as tables(rows and columns)                                                        |
+| Data Relationship | No relationship between data                                             | Data is stored in the form of tables which are related to each other                              |
+| Normalization     | Normalisation is not achievable                                          | There is normalisation                                                                            |
+| Example           | XML, Microsoft Access                                                    | Oracle, SQL Server, MySQL                                                                         |
+
+[Reference](https://www.geeksforgeeks.org/difference-between-rdbms-and-dbms/)
+#
+
 
