@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Register Page</title>
+</head>
+
+<body>
+    <div>
+        <h1>IEEE-CS</h1>
+    </div>
+    <form>
+        <div>
+            <label for="user">Username</label>
+            <input id="user" type="text" name="username" placeholder="Username" required autofocus
+                title="Please write a validate name">
+        </div>
+        <br>
+        <div>
+            <label for="mail">Email</label>
+            <input id="mail" type="email" name="mail" placeholder="E-mail" required
+                title="Please write a validate Email contains at least @">
+        </div>
+        <br>
+        <div>
+            <label for="Pass">Password</label>
+            <input id="Pass" type="password" name="password" placeholder="••••••••" minlength="8" maxlength="32"
+                title="Write at least 8 characters" required>
+        </div>
+        <br>
+        <div>
+            <label for="con Pass">Confirm Password</label>
+            <input id="con Pass" type="password" name="password" placeholder="••••••••" minlength="8" maxlength="32"
+                title="Please confirm your password" required>
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+        </div>
+        <br>
+        <input id="box" type="checkbox" required>
+        <label for="box">
+            I accept the
+            <a href="" target="_blank">Terms and Conditions</a>
+        </label>
+        <br>
+        <input type="submit" value="Create an account">
+        <p>Already have an account?
+            <a href="Login.html" target="_blank" title="Login here">Login here</a>
+        </p>
+    </form>
+</body>
+
+</html>
