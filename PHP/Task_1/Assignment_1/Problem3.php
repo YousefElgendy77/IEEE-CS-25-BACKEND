@@ -1,5 +1,6 @@
-// My Application
-// Version 1.0
-// Created By Elzero
-
-// Delete // for each line
+<?php
+/*
+My Application
+Version 1.0
+Created By Elzero
+*/
