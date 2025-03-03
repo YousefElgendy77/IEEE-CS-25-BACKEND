@@ -76,4 +76,18 @@ $b = 20;
 echo $a; // 20
 echo $b; // 20
 ```
+#
+### For vs foreach loop in PHP.
+#
+**For loop:** works at the end of the given condition , It is used for the implementation of variables and works in a single way , it does not work in the case of associative arrays ,and basically consists of three portions or parts:
+1. A variable is initialized with a value.
+2. The variable is subjected to the condition to which it is compared.
+3. Increment/decrement loop counter.
 
+**Foreach loop:** works at the end of the array count , work with variables as well as associative arrays. Therefore, this loop can be implemented in more than one way. 
+
+
+**The foreach loop is much better and performs better in comparison to the for loop.**
+
+[<u>Reference</u>](https://www.geeksforgeeks.org/what-is-the-difference-between-for-and-foreach-loop-in-php/)
+#
